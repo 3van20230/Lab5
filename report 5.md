@@ -1,5 +1,7 @@
-**Lab Report 5**
-Part 1
+#**Lab Report 5**
+
+
+**Part 1**
 
 1. Scenario
 I'm having trouble with my autograding script and writing my code in Java and it is not working. I have set up a bash script that compiles and runs for the student Java code. However, it's showing errors and failure for the output which is not what I expected. Expected result `autograding passed`
@@ -22,7 +24,8 @@ Command Line:
 Description of what to edit to fix the bug:
 we added a comparison step to ensure the accuracy of the auto grading process. After compiling the Java program, we run it and capture the output in a variable called student_output. We then compare this output with the expected output using an if statement. If the student's output matches the expected output.
 
-Part 2
+**Part 2**
+
 Reflecting: 
   The autograding from Week 6 was definitely one of my favorite labs in this class. Having taken CSE12 previously, where practice assignments were turned in through autograding, I was already familiar with the concept. However, I had always been curious about how it works. This lab provided me with the opportunity to delve deeper into the structure and inner workings of autograding.
 
